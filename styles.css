@@ -1,0 +1,11 @@
+.navbar-brand {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
