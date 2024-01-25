@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 200px;
+    width: auto;
+}
+
 .navbar-brand {
     margin: 0 auto;
     display: block;
@@ -8,4 +19,44 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+.cuadrado:last-child {
+    margin-right: 0;
+}
+
+.cuadrado:hover {
+    transform: scaleX(1.2);
+    /*border: 1px solid #000;*/
+    border-radius: 4px;
+}
+
+.rojo {
+    background-color: #ff6272ce;
+}
+
+.azul {
+    background-color: #add8e6;
+}
+
+.verde {
+    background-color: #98fb98;
+}
+
+.amarillo {
+    background-color: #fff388;
 }
